@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SITE TITLE-->
+    <title>Dentada - A Dentist HTML5 Template</title>
+
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/favicon_76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/img/favicon_120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/img/favicon_152x152.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/animsition/dist/css/animsition.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/photoswipe/dist/photoswipe.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/photoswipe/dist/default-skin/default-skin-min.css"
+    />
+
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="assets/css/themify-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/font-awesome/css/font-awesome.min.css"
+    />
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="assets/css/theme-default.min.css" />
+  </head>
+  <body class="header-vertical page">
+    <!-- Body Wrapper -->
+    <div id="body-wrapper" class="animsition">
+      <!-- Loader -->
+      <div id="page-loader">
+        <svg
+          class="loader"
+          width="64px"
+          height="64px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 100 100"
+        >
+          <circle
+            fill="none"
+            stroke="#007ACC"
+            stroke-width="4"
+            cx="50"
+            cy="50"
+            r="25"
+            style="opacity: 0.5"
+          >
+            <animate
+              attributeName="r"
+              attributeType="XML"
+              values="25; 20; 25"
+              begin="0s"
+              dur="1s"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle
+            fill="#007ACC"
+            stroke="#007ACC"
+            stroke-width="4"
+            cx="50"
+            cy="50"
+            r="6"
+          >
+            <animate
+              attributeName="r"
+              attributeType="XML"
+              values="6; 10; 6"
+              begin="0s"
+              dur="1s"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle
+            fill="none"
+            stroke="#007ACC"
+            stroke-width="4"
+            cx="50"
+            cy="50"
+            r="44"
+            style="opacity: 0.2"
+          />
+          <circle
+            fill="#DB4534"
+            stroke="#DB4534"
+            stroke-width="3"
+            cx="8"
+            cy="54"
+            r="6"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="2s"
+              type="rotate"
+              from="0 50 48"
+              to="360 50 52"
+              repeatCount="indefinite"
+            />
+          </circle>
+        </svg>
+      </div>
+      <!-- Loader / End -->
+
+      <!-- Header -->
+      <header id="header" class="header-vertical">
+        <div
+          class="logo d-flex flex-column gap-2 justify-content-center align-items-center"
+        >
+          <a href="index.html"
+            ><img src="assets/img/logo.png" alt="dentada-logo"
+          /></a>
+          <h4 class="text-light">Aliso Dental Care</h4>
+        </div>
+
+        <nav id="main-navigation">
+          <ul class="main-menu">
+            <li class="menu-item">
+              <a href="index.html">home</a>
+            </li>
+            <li class="menu-item"><a href="about.html">about us</a></li>
+            <li class="menu-item">
+              <a href="treatments.html">Dental Services</a>
+            </li>
+            <li class="menu-item"><a href="faq.html">FAQ's</a></li>
+            <li class="menu-item"><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+        <span class="close-menu">close menu</span>
+      </header>
+      <!-- Header / End-->
+
+      <div
+        id="section-top-bar"
+        class="section-top-bar d-flex align-items-center"
+      >
+        <a href="#" class="nav-toggle"><span></span></a>
+        <div class="module-search">
+          <a href="#" class="search-trigger"><i class="ti-search"></i></a>
+        </div>
+
+        <div class="line"></div>
+
+       <div class="logo-mobile">
+          <a href="index.html" class="text-decoration-none"
+            ><img src="assets/img/logo.png" alt="dentada-logo"
+          />
+          <h4 class="text-dark text-decoration-none mb-0">Aliso Dental Care</h4>
+        </a>
+        </div>
+        <div class="module-appointment">
+          <a href="appointment.html"
+            ><i class="ti-calendar"></i><span>make an appointment</span></a
+          >
+        </div>
+
+        <div class="line"></div>
+
+        <div class="search-form">
+          <form action="/">
+            <input
+              type="text"
+              name="s"
+              id="s"
+              class="form-control"
+              placeholder="type your key word here end press enter.."
+            />
+            <i></i>
+          </form>
+          <a href="#" class="search-close-trigger"><i class="ti-close"></i></a>
+        </div>
+      </div>
+      <!-- #section-top-bar / End-->
+
+      <div id="content" class="page-contact">
+        <section
+          id="page-title-area"
+          class="page-title-area d-flex align-items-end p-4"
+        >
+          <div class="bg-image-holder">
+            <img src="assets/img/contact-img.jpg" alt="contact-page-title-bg" />
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="page-title">Contact</h1>
+              </div>
+              <div class="col-lg-12">
+                <ol class="breadcrumbs d-flex align-items-center">
+                  <li>
+                    <a href="index.html">Homepage</a>
+                  </li>
+                  <li class="active">Contact</li>
+                </ol>
+              </div>
+            </div>
+            <!-- /.row-->
+          </div>
+          <!-- /.container-->
+        </section>
+
+        <section id="contact" class="contact-area">
+          <div class="container-custom">
+            <div class="row d-flex justify-content-start">
+              <figure>
+                <div class="bg-image-holder">
+                  <img src="assets/img/portland.jpg" alt="portland-center" />
+                </div>
+              </figure>
+              <div class="center-content">
+                <h1 class="center-name">Our center</h1>
+                <div class="contact-info">
+                  <div class="info-line">
+                    <i class="ti-mobile"></i>
+                    <p>(949) 448-0274</p>
+                  </div>
+                  <div class="info-line">
+                    <i class="ti-map"></i>
+                    <p>15 Mareblu #380, Aliso Viejo, CA 92656,</p>
+                  </div>
+                  <div class="info-line">
+                    <i class="ti-alarm-clock"></i>
+                    <p>09:00 - 17:00 (Monday-Friday)</p>
+                  </div>
+                  <div class="info-line">
+                    <i class="ti-email"></i>
+                    <p>info@alisodentalcare.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row-->
+
+            <div
+              class="row d-flex justify-content-end form-row align-items-center"
+            >
+              <div class="col-lg-6">
+                <h4>Our Timings</h4>
+                <table class="table table-striped table-hover table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">Day</th>
+                      <th scope="col">Hour</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Monday</td>
+                      <td>9:00 AM – 5:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Tuesday</td>
+                      <td>9:00 AM – 5:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Wednesday</td>
+                      <td>9:00 AM – 5:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Thursday</td>
+                      <td>9:00 AM – 2:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Friday–Sunday</td>
+                      <td>Closed</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-lg-6">
+                <div id="contact-form" class="contact-form">
+                  <form method="POST">
+                    <h3 class="form-title">Contact Form</h3>
+                    <div class="form-group">
+                      <h4 class="success">
+                        Your message has been sent successfully.
+                      </h4>
+                      <h4 class="error">
+                        E-mail must be valid and message must be longer than 1
+                        character.
+                      </h4>
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        id="name"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div class="extra-group d-flex justify-content-between">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          id="phone"
+                          class="form-control"
+                          placeholder="Phone"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          id="email"
+                          class="form-control"
+                          placeholder="E-mail"
+                        />
+                      </div>
+                    </div>
+                    <div class="extra-group d-flex justify-content-between">
+                      <div class="form-group">
+                        <select
+                          class="form-select form-control"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Select Day</option>
+                          <option value="1">Monday</option>
+                          <option value="2">Tuesday</option>
+                          <option value="3">Wednesday</option>
+                          <option value="4">Thursday</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select
+                          class="form-select form-control"
+                          aria-label="Default select example"
+                        >
+                          <option selected>Select Timing</option>
+                          <option value="1">09:00am - 10:00am</option>
+                          <option value="2">10:00am - 11:00am</option>
+                          <option value="3">11:00am - 12:00pm</option>
+                          <option value="3">12:00pm - 01:00pm</option>
+                          <option value="3">01:00pm - 02:00pm</option>
+                          <option value="3">02:00pm - 03:00pm</option>
+                          <option value="3">03:00pm - 04:00pm</option>
+                          <option value="3">04:00pm - 05:00pm</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        id="message"
+                        class="form-control"
+                        placeholder="Message"
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+              <!-- /.contact-form-->
+            </div>
+            <!-- /.row-->
+          </div>
+          <!-- /.container-fluid-->
+        </section>
+      </div>
+      <!-- /#content-->
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div
+          class="contact-cta-box d-flex justify-content-start align-items-center"
+        >
+          <img src="assets/img/icon-envelope.png" alt="icon-envelope" />
+          <h2 class="cta-text">
+            <a href="appointment.html">make an appointment</a>
+          </h2>
+          <img
+            class="fade-icon"
+            src="assets/img/icon-calendar-fade.png"
+            alt="icon-calendar-fade"
+          />
+          <div class="arrows">
+            <img src="assets/img/arrow-shape-3.png" alt="arrow-3" />
+            <img src="assets/img/arrow-shape-2.png" alt="arrow-2" />
+            <img src="assets/img/arrow-shape-1.png" alt="arrow-1" />
+          </div>
+        </div>
+        <div
+          class="footer-info d-sm-flex justify-content-sm-between align-items-lg-end"
+        >
+          <div class="module-copyright">
+            <span class="copyright-year"></span> - All Rights Reserved - Dentada
+          </div>
+          <div class="module-social">
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+      </footer>
+      <!-- Footer / End-->
+      <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- Body Wrapper / End-->
+
+    <!-- JS Plugins -->
+    <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="assets/plugins/animsition/dist/js/animsition.min.js"></script>
+    <script src="assets/plugins/tether/dist/js/tether.min.js"></script>
+    <script src="assets/plugins/popper.js/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
+    <script src="assets/plugins/tilt.js/dest/tilt.jquery.min.js"></script>
+    <script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
+    <script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
+
+    <!-- JS Core -->
+    <script src="assets/js/core-min.js"></script>
+  </body>
+</html>

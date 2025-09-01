@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SITE TITLE-->
+    <title>Dentada - A Dentist HTML5 Template</title>
+
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon_60x60.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/img/favicon_76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="assets/img/favicon_120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="assets/img/favicon_152x152.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/slick-carousel/slick/slick.min.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/twentytwenty-master/css/twentytwenty.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/photoswipe/dist/photoswipe.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/photoswipe/dist/default-skin/default-skin-min.css"
+    />
+
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="assets/css/themify-icons.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/font-awesome/css/font-awesome.min.css"
+    />
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" href="assets/css/theme-default.min.css" />
+  </head>
+  <body class="home header-vertical">
+    <!-- Body Wrapper -->
+    <div id="body-wrapper">
+      <!-- Loader -->
+      <div id="page-loader">
+        <svg
+          class="loader"
+          width="64px"
+          height="64px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 100 100"
+        >
+          <circle
+            fill="none"
+            stroke="#007ACC"
+            stroke-width="4"
+            cx="50"
+            cy="50"
+            r="25"
+            style="opacity: 0.5"
+          >
+            <animate
+              attributeName="r"
+              attributeType="XML"
+              values="25; 20; 25"
+              begin="0s"
+              dur="1s"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle
+            fill="#007ACC"
+            stroke="#007ACC"
+            stroke-width="4"
+            cx="50"
+            cy="50"
+            r="6"
+          >
+            <animate
+              attributeName="r"
+              attributeType="XML"
+              values="6; 10; 6"
+              begin="0s"
+              dur="1s"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle
+            fill="none"
+            stroke="#007ACC"
+            stroke-width="4"
+            cx="50"
+            cy="50"
+            r="44"
+            style="opacity: 0.2"
+          />
+          <circle
+            fill="#DB4534"
+            stroke="#DB4534"
+            stroke-width="3"
+            cx="8"
+            cy="54"
+            r="6"
+          >
+            <animateTransform
+              attributeName="transform"
+              dur="2s"
+              type="rotate"
+              from="0 50 48"
+              to="360 50 52"
+              repeatCount="indefinite"
+            />
+          </circle>
+        </svg>
+      </div>
+      <!-- Loader / End -->
+
+      <!-- Header -->
+      <header id="header" class="header-vertical">
+        <div
+          class="logo d-flex flex-column gap-2 justify-content-center align-items-center"
+        >
+          <a href="index.html"
+            ><img src="assets/img/logo.png" alt="dentada-logo"
+          /></a>
+          <h4 class="text-light">Aliso Dental Care</h4>
+        </div>
+
+        <nav id="main-navigation">
+          <ul class="main-menu">
+            <li class="menu-item">
+              <a href="index.html">home</a>
+            </li>
+            <li class="menu-item"><a href="about.html">about us</a></li>
+            <li class="menu-item">
+              <a href="treatments.html">Dental Services</a>
+            </li>
+            <li class="menu-item"><a href="faq.html">FAQ's</a></li>
+            <li class="menu-item"><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+        <span class="close-menu">close menu</span>
+      </header>
+      <!-- Header / End-->
+
+      <div
+        id="section-top-bar"
+        class="section-top-bar d-flex align-items-center"
+      >
+        <a href="#" class="nav-toggle"><span></span></a>
+        <div class="module-search">
+          <a href="#" class="search-trigger"><i class="ti-search"></i></a>
+        </div>
+
+        <div class="line"></div>
+
+   <div class="logo-mobile">
+          <a href="index.html" class="text-decoration-none"
+            ><img src="assets/img/logo.png" alt="dentada-logo"
+          />
+          <h4 class="text-dark text-decoration-none mb-0">Aliso Dental Care</h4>
+        </a>
+        </div>
+        <div class="module-appointment">
+          <a href="appointment.html"
+            ><i class="ti-calendar"></i><span>make an appointment</span></a
+          >
+        </div>
+
+        <div class="line"></div>
+
+        <div class="search-form">
+          <form action="/">
+            <input
+              type="text"
+              name="s"
+              id="s"
+              class="form-control"
+              placeholder="type your key word here end press enter.."
+            />
+            <i></i>
+          </form>
+          <a href="#" class="search-close-trigger"><i class="ti-close"></i></a>
+        </div>
+      </div>
+      <!-- #section-top-bar / End-->
+
+      <div id="content">
+        <section id="section-slider" class="section-slider">
+          <div
+            class="slider-main"
+            data-slick='{"slidesToShow": 1, "slidesToScroll": 1, "autoplay": false, "speed": 800, "autoplaySpeed": 4500, "arrows": false, "dots": true, "infinite": true, "pauseOnHover": false, "fade": false}'
+          >
+            <div class="slider-item">
+              <div class="bg-image-holder">
+                <img src="assets/img/slider-1.jpg" alt="slider-1" />
+              </div>
+              <div class="container-custom slider-content">
+                <div class="row align-items-end">
+                  <div class="col-xl-5 align-self-xl-center">
+                    <div
+                      class="slider-text-area"
+                      data-animation="fadeInLeft"
+                      data-animation-delay="100"
+                    >
+                      <!-- <span class="tag">general treatment</span> -->
+                      <h1 class="title">
+                        <span class="bold"
+                          >Creating Beautiful Smiles Daily</span
+                        >
+                        <br />
+                        <span class="fs-3"
+                          >Comprehensive dental care tailored just for you in a
+                          warm, friendly environment.</span
+                        >
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="col-xl-7">
+                    <div
+                      class="slider-image-area"
+                      data-animation="fadeInUp"
+                      data-animation-delay="100"
+                    >
+                      <img
+                        src="assets/img/dentist-woman.png"
+                        alt="dentist-woman"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div class="bg-image-holder">
+                <img src="assets/img/slider-1.jpg" alt="slider-1" />
+              </div>
+              <div class="container-custom slider-content">
+                <div class="row align-items-end">
+                  <div class="col-xl-5 align-self-xl-center">
+                    <div
+                      class="slider-text-area"
+                      data-animation="fadeInLeft"
+                      data-animation-delay="100"
+                    >
+                      <!-- <span class="tag">general treatment</span> -->
+                      <h1 class="title">
+                        <span class="bold"
+                          >Creating Beautiful Smiles Daily</span
+                        >
+                        <br />
+                        <span class="fs-3"
+                          >Comprehensive dental care tailored just for you in a
+                          warm, friendly environment.</span
+                        >
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="col-xl-7">
+                    <div
+                      class="slider-image-area"
+                      data-animation="fadeInUp"
+                      data-animation-delay="100"
+                    >
+                      <img
+                        src="assets/img/dentist-woman.png"
+                        alt="dentist-woman"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="slider-item">
+              <div class="bg-image-holder">
+                <img src="assets/img/slider-1.jpg" alt="slider-1" />
+              </div>
+              <div class="container-custom slider-content">
+                <div class="row align-items-end">
+                  <div class="col-xl-5 align-self-xl-center">
+                    <div
+                      class="slider-text-area"
+                      data-animation="fadeInLeft"
+                      data-animation-delay="100"
+                    >
+                      <!-- <span class="tag">general treatment</span> -->
+                      <h1 class="title">
+                        <span class="bold"
+                          >Creating Beautiful Smiles Daily</span
+                        >
+                        <br />
+                        <span class="fs-3"
+                          >Comprehensive dental care tailored just for you in a
+                          warm, friendly environment.</span
+                        >
+                      </h1>
+                    </div>
+                  </div>
+                  <div class="col-xl-7">
+                    <div
+                      class="slider-image-area"
+                      data-animation="fadeInUp"
+                      data-animation-delay="100"
+                    >
+                      <img
+                        src="assets/img/dentist-woman.png"
+                        alt="dentist-woman"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+          <!-- /.slider-main-->
+          <button id="main-cta" class="cta"></button>
+        </section>
+
+        <section id="section-about" class="section section-about p-6">
+          <div class="container-custom">
+            <div class="row mb-6">
+              <div class="col-xl-6 d-flex align-items-center">
+                <div class="about-text">
+                  <div class="section-title mb-2">
+                    <h1>Who we are</h1>
+                  </div>
+                  <h2>About Aliso Dental Care</h2>
+                  <p>
+                    Founded in 1999 by Dr. Silvia Vallis, Aliso Dental Care has
+                    been serving the Orange County community with comprehensive
+                    dental solutions.
+                  </p>
+                  <p>
+                    At Aliso Dental Care, our mission is to deliver exceptional
+                    dental care while creating a positive, welcoming environment
+                    where every patient feels safe, respected, and truly valued.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="image-part">
+                  <div class="bg-image-holder">
+                    <img src="assets/img/center-gallery-1.jpg" alt="about-2" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row-->
+          </div>
+          <!-- /.container-->
+        </section>
+
+        <section
+          id="featuredservices"
+          class="section section-featuredservices p-6"
+        >
+          <div class="container-custom">
+            <div class="section-desc">
+              <div class="section-title mb-2">
+                <h1>Our Dental Services</h1>
+              </div>
+              <!-- <h1>Featured Services</h1> -->
+              <p>
+                Learn more about the dental services we provide to help you
+                smile with confidence at every stage of life.
+              </p>
+            </div>
+          </div>
+          <div class="boxes-wrapper d-flex flex-wrap">
+            <div class="feature-box">
+              <div class="inner">
+                <div class="box-icon">
+                  <i class="fi flaticon-dentist-chair"></i>
+                </div>
+                <h2 class="box-title">General Dentistry</h2>
+                <p class="box-desc">
+                  Comprehensive exams, cleanings, and preventive care to keep
+                  your teeth and gums healthy year-round.
+                </p>
+              </div>
+            </div>
+            <div class="feature-box blue">
+              <div class="inner">
+                <div class="box-icon">
+                  <i class="fi flaticon-implant"></i>
+                </div>
+                <h2 class="box-title">Cosmetic Dentistry</h2>
+                <p class="box-desc">
+                  Whitening, veneers, and smile design solutions to enhance the
+                  appearance and confidence of your smile.
+                </p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="inner">
+                <div class="box-icon">
+                  <i class="fi flaticon-drilling"></i>
+                </div>
+                <h2 class="box-title">Periodontal Therapy</h2>
+                <p class="box-desc">
+                  Targeted care to prevent, manage, and treat gum disease —
+                  protecting both your oral and overall health.
+                </p>
+              </div>
+            </div>
+            <div class="feature-box blue">
+              <div class="inner">
+                <div class="box-icon">
+                  <i class="fi flaticon-plaque"></i>
+                </div>
+                <h2 class="box-title">Restorative Dentistry</h2>
+                <p class="box-desc">
+                  Crowns, bridges, and fillings to repair damaged teeth and
+                  restore full function and comfort.
+                </p>
+              </div>
+            </div>
+            <div class="feature-box">
+              <div class="inner">
+                <div class="box-icon">
+                  <i class="fi flaticon-plaque"></i>
+                </div>
+                <h2 class="box-title">Dentures</h2>
+                <p class="box-desc">
+                  Custom full and partial dentures designed to restore your
+                  smile, improve speech, and support chewing comfort.
+                </p>
+              </div>
+            </div>
+            <div class="feature-box blue">
+              <div class="inner">
+                <div class="box-icon">
+                  <i class="fi flaticon-plaque"></i>
+                </div>
+                <h2 class="box-title">Emergency Dentistry</h2>
+                <p class="box-desc">
+                  Same-day appointments available for urgent dental issues like
+                  toothaches, chips, or lost fillings.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- /.container-->
+        </section>
+
+        <section
+          id="section-treatments"
+          class="section section-treatments pb-3"
+        >
+          <div class="container-custom">
+            <div class="section-title mb-5">
+              <h1>Why Patients Choose Us</h1>
+              <p>
+                Discover what sets our practice apart and why so many families
+                trust us with their smiles.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card border-0 shadow rounded-4 text-center">
+                  <div class="card-body">
+                    <h4 class="pt-3">Bilingual Care</h4>
+                    <p class="mb-0">
+                      We proudly serve both English and Spanish-speaking
+                      patients, ensuring clear communication and personalized
+                      care for everyone.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 shadow rounded-4 text-center">
+                  <div class="card-body">
+                    <h4 class="pt-3">Personalized Attention</h4>
+                    <p class="mb-0">
+                      Our smaller practice size allows us to build real
+                      relationships with patients and provide truly
+                      individualized dental care for our patients.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0 shadow rounded-4 text-center">
+                  <div class="card-body">
+                    <h4 class="pt-3">Experienced Team</h4>
+                    <p class="mb-0">
+                      With years of clinical experience, our skilled staff is
+                      dedicated to delivering high-quality treatment with a
+                      gentle touch.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.carousel-treatments-->
+          </div>
+          <!-- /.container-->
+        </section>
+
+        <section
+          id="section-cta-appointment"
+          class="section section-cta-appointment pt-3"
+        >
+          <div class="container-custom">
+            <div class="row">
+              <div
+                class="col-xl-5 d-flex justify-content-start align-items-center"
+              >
+                <p class="cta-desc">
+                  Book your visit today and take the first step toward
+                  confident, comfortable dental care.
+                </p>
+              </div>
+              <div class="col-xl-7">
+                <div
+                  class="appointment-box d-flex justify-content-start align-items-center"
+                >
+                  <img src="assets/img/icon-calendar.png" alt="icon-calendar" />
+                  <h2 class="cta-text">
+                    <a href="appointment.html">make an appointment</a>
+                  </h2>
+                  <img
+                    class="fade-icon"
+                    src="assets/img/icon-calendar-fade.png"
+                    alt="icon-calendar-fade"
+                  />
+                  <div class="arrows">
+                    <img src="assets/img/arrow-shape-3.png" alt="arrow-3" />
+                    <img src="assets/img/arrow-shape-2.png" alt="arrow-2" />
+                    <img src="assets/img/arrow-shape-1.png" alt="arrow-1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row-->
+          </div>
+          <!-- /.container-->
+          <div class="gray-area"></div>
+        </section>
+
+        <div class="counters-container">
+          <div class="counter-box">
+            <div class="counter-title">Teeth Cleaned</div>
+            <div class="counter-number">
+              <span class="counter-value" data-target="8200">0</span>
+              <span class="counter-suffix">+</span>
+            </div>
+          </div>
+
+          <div class="counter-box">
+            <div class="counter-title">Years of Experience</div>
+            <div class="counter-number">
+              <span class="counter-value" data-target="28">0</span>
+              <span class="counter-suffix"></span>
+            </div>
+          </div>
+
+          <div class="counter-box">
+            <div class="counter-title">Cavities Filled</div>
+            <div class="counter-number">
+              <span class="counter-value" data-target="3100">0</span>
+              <span class="counter-suffix">+</span>
+            </div>
+          </div>
+
+          <div class="counter-box">
+            <div class="counter-title">Whitening Sessions</div>
+            <div class="counter-number">
+              <span class="counter-value" data-target="780">0</span>
+              <span class="counter-suffix">+</span>
+            </div>
+          </div>
+        </div>
+
+        <section
+          id="section-before-after"
+          class="section section-before-after p-6"
+        >
+          <div class="container-custom">
+            <div class="section-title mb-5">
+              <span>This is the change</span>
+              <h1>Before After</h1>
+            </div>
+            <div class="row">
+              <div class="col-xl-6 left-area">
+                <div class="bg-slideshow">
+                  <div class="slideshow-item">
+                    <div
+                      id="before-after-1"
+                      class="twentytwenty-container"
+                      data-beforeafter
+                    >
+                      <img src="assets/img/ba-1.jpg" alt="ba-1" />
+                      <img src="assets/img/ba-2.jpg" alt="ba-2" />
+                    </div>
+                    <div class="caption mt-4">
+                      Implant Application <span> - Jane Doe</span>
+                    </div>
+                  </div>
+                  <div class="slideshow-item">
+                    <div
+                      id="before-after-2"
+                      class="twentytwenty-container"
+                      data-beforeafter
+                    >
+                      <img src="assets/img/ba-3.jpg" alt="ba-3" />
+                      <img src="assets/img/ba-4.jpg" alt="ba-4" />
+                    </div>
+                    <div class="caption mt-4">
+                      Pediatric Applications <span> - Jone Doe</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.bg-slideshow-->
+                <div class="dotted-bg">
+                  <img src="assets/img/ba-dotted-bg.png" alt="dotted" />
+                </div>
+              </div>
+              <div class="col-xl-6 d-flex flex-column justify-content-center">
+                <div class="before-after-text">
+                  <h2>Happy Customers</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
+                    nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed
+                    pretium, ligula sollicitudin laoreet viverra, tortor libero
+                    sodales leo, eget blandit nunc tortor eu nibh. Nullam
+                    mollis. Ut justo. Suspendisse potenti.
+                  </p>
+
+                  <div class="book-now">
+                    <span>Appointment Now</span
+                    ><a href="appointment.html" class="btn-scroll"
+                      ><i class="ti-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.row-->
+          </div>
+          <!-- /.container-->
+          <div class="gray-area"></div>
+        </section>
+
+        <section class="section section-stories">
+          <div class="">
+            <h2>Transformative Stories</h2>
+            <p>
+              Read inspiring stories of how we've changed lives through
+              compassionate dental care.
+            </p>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-5 mx-auto">
+              <a href="#" class="text-decoration-none">
+                <div class="card">
+                  <img
+                    src="https://alisodental.com/wp-content/uploads/2025/05/pexels-photo-5355828-1.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2  style="color: #63b8e7">Smile Makeover</h2>
+                    <p class="card-text">
+                      Years of wear and staining left this patient unhappy with
+                      their smile. Through whitening, veneers, and shaping, we
+                      achieved a cleaner, brighter look — all in just a few
+                      visits.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-5 mx-auto">
+              <a href="#" class="text-decoration-none">
+                <div class="card">
+                  <img
+                    src="https://alisodental.com/wp-content/uploads/2025/05/pexels-photo-5355710-1.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h2 style="color: #63b8e7">Bite Restoration</h2>
+                    <p class="card-text">
+                      A patient came in with worn molars and difficulty chewing.
+                      Using crowns and occlusal adjustments, we restored balance
+                      and comfort to their bite.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="gray-area"></div>
+        <div
+          class="contact-cta-box d-flex justify-content-start align-items-center"
+        >
+          <img src="assets/img/icon-envelope.png" alt="icon-envelope" />
+          <h2 class="cta-text">
+            <a href="contact.html">click for contact form</a>
+          </h2>
+          <img
+            class="fade-icon"
+            src="assets/img/icon-fade-envelope.png"
+            alt="icon-envelope-fade"
+          />
+          <div class="arrows">
+            <img src="assets/img/arrow-shape-3.png" alt="arrow-3" />
+            <img src="assets/img/arrow-shape-2.png" alt="arrow-2" />
+            <img src="assets/img/arrow-shape-1.png" alt="arrow-1" />
+          </div>
+        </div>
+        <div
+          class="footer-info d-sm-flex justify-content-sm-between align-items-lg-end"
+        >
+          <div class="module-copyright">
+            <span class="copyright-year"></span> - All Rights Reserved - Dentada
+          </div>
+          <div class="module-social">
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+      </footer>
+      <!-- Footer / End-->
+      <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    </div>
+    <!-- Body Wrapper / End-->
+
+    <!-- JS Plugins -->
+    <script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+    <script src="assets/plugins/animsition/dist/js/animsition.min.js"></script>
+    <script src="assets/plugins/tether/dist/js/tether.min.js"></script>
+    <script src="assets/plugins/popper.js/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
+    <script src="assets/plugins/slick-carousel/slick/slick.min.js"></script>
+    <script src="assets/plugins/tilt.js/dest/tilt.jquery.min.js"></script>
+    <script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
+    <script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/plugins/twentytwenty-master/js/jquery.event.move.js"></script>
+    <script src="assets/plugins/twentytwenty-master/js/jquery.twentytwenty.js"></script>
+
+    <!-- JS Core -->
+    <script src="assets/js/core-min.js"></script>
+  </body>
+</html>
